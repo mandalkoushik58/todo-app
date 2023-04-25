@@ -1,0 +1,17 @@
+
+<h3>to do list</h3>
+
+<div>
+<ul class="list-group mt-2">
+  <li class="list-group-item " *ngFor="let item of todoItems">
+         <div class="row">
+          <div class="col-sm-9"> {{item}}</div>
+          <div class="col-sm-3">
+            <mat-icon aria-hidden="false"class="mIcon"color="primary" aria-label="Example edit icon" fontIcon="edit"></mat-icon>
+            <mat-icon aria-hidden="false" class="mIcon" color="primary" aria-label="Example delete icon" fontIcon="delete"></mat-icon>
+
+          </div>
+         </div>
+  </li>
+</ul>
+</div>
